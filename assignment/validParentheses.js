@@ -1,3 +1,8 @@
+/*
+  * Time Complexity O(n)
+  * Space Complexity O(n)
+ */
+
 const { resolve } = require("path");
 const readline = require("readline");
 const rl = readline.createInterface(process.stdin, process.stdout);
