@@ -1,3 +1,8 @@
+/**
+ *
+ * Time Complexity O(n)
+ * Space Complexity O(n)
+ */
 const removeDuplicates = (s) => {
   let stack = [];
   for (let char of s) {
