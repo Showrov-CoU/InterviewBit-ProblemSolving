@@ -7,12 +7,14 @@ const timeRequiredToBuy = (tickets, k) => {
   let loop = 1;
   while (tickets[k] > 0) {
     tickets = tickets.map((v, i) => {
-      if (v > 0) {
+      console.log(v, i);
+      if (v > 0) {  
         v--;
         times[i] = loop++;
       }
       return v;
     });
+    //console.log(tickets);
   }
   return times[k];
 };
