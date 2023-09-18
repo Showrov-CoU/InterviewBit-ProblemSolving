@@ -1,3 +1,8 @@
+/**
+ ** Time Complexity O(logn)
+ ** Space Complexity O(1)
+ */
+
 const findMin = (nums) => {
   let left = 0,
     right = nums.length - 1,
