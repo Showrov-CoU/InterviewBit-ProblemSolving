@@ -1,3 +1,8 @@
+/**
+ ** Time Complexity O(n)
+ ** Space Complexity O(1)
+ */
+
 const maxProfit = (prices) => {
   let maxProfit = 0;
   let minPrice = prices[0];
