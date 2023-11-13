@@ -1,3 +1,7 @@
+/**
+ ** Time Complexity O(n*n)
+ ** Space Complexity O(n)
+ */
 const lengthOfLIS = (nums) => {
   let dp = new Array(nums.length).fill(1);
 
